@@ -1,6 +1,8 @@
 using System;
-class Divisor {
-  static void Main() {
+class Divisor 
+{
+  static void Main()
+  {
       Console.WriteLine("Enter number: ");
       int num = Convert.ToInt32(Console.ReadLine());
       Console.WriteLine("The divisors of " + num + " are: ");
